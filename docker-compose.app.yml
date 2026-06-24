@@ -44,7 +44,7 @@ services:
     restart: unless-stopped
     environment:
       # The list of available variables is in env.example
-      AGENT_SECRET: CHANGE_ME!
+      AGENT_SECRET: ${AGENT_SECRET}
       DOCKER_HOST: tcp://socket-proxy:2375
     networks:
       - tugtainer
