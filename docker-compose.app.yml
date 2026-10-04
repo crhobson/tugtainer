@@ -46,6 +46,7 @@ services:
       # The list of available variables is in env.example
       AGENT_SECRET: ${AGENT_SECRET}
       DOCKER_HOST: tcp://socket-proxy:2375
+      AGENT_ALLOW_ENDPOINTS: ${AGENT_ALLOW_ENDPOINTS:-}
     networks:
       - tugtainer
     ports:
