@@ -19,7 +19,7 @@ services:
       PING: 1
       NETWORKS: 1
       POST: 1
-      TZ: Europe/Moscow
+      TZ: Australia/Sydney
       VERSION: 1
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
